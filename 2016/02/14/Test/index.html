@@ -105,7 +105,7 @@ https://www.baidu.com啊
     fancybox: true,
     motion: true,
     duoshuo: {
-      userId: 0,
+      userId: 6249277201410164000,
       author: '博主'
     }
   };
@@ -187,7 +187,7 @@ https://www.baidu.com啊
             
               <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
             
-            归档
+            时间线
           </a>
         </li>
       
@@ -207,7 +207,7 @@ https://www.baidu.com啊
             
               <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
             
-            关于
+            关于&留言板
           </a>
         </li>
       
@@ -576,7 +576,7 @@ https://www.baidu.com啊
   <div class="comments" id="comments">
     
       <div class="ds-thread" data-thread-key="2016/02/14/Test/"
-           data-title="Test" data-url="http://blog.iamty.xyz/2016/02/14/Test/" data-author-key="1">
+           data-title="Test" data-url="http://blog.iamty.xyz/2016/02/14/Test/" data-author-key="">
       </div>
     
   </div>
@@ -734,11 +734,11 @@ https://www.baidu.com啊
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  Power by <a class="theme-link" href="http://hexo.io">Hexo</a> 
 </div>
 
 <div class="theme-info">
-  主题 -
+  theme -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Pisces
   </a>
@@ -978,7 +978,7 @@ https://www.baidu.com啊
       var ds = document.createElement('script');
       ds.type = 'text/javascript';ds.async = true;
       ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '/js/src/embed.js';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
       ds.charset = 'UTF-8';
       (document.getElementsByTagName('head')[0]
       || document.getElementsByTagName('body')[0]).appendChild(ds);
@@ -986,6 +986,9 @@ https://www.baidu.com啊
   </script>
 
   
+    
+      <script src="/vendors/ua-parser-js/dist/ua-parser.min.js"></script>
+      <script src="/js/src/hook-duoshuo.js"></script>
     
   
 
