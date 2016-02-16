@@ -1355,11 +1355,15 @@ pre .javascript .function {
 .post-gallery {
   display: table;
   table-layout: fixed;
-  width: 100%;
+  width: 110%;
   border-collapse: separate;
+  text-align: center !important;
+  margin: 0 auto 30px auto;
 }
 .post-gallery-row {
   display: table-row;
+  text-align: center !important;
+  margin: 0 auto;
 }
 .post-gallery .post-gallery-img {
   display: table-cell;
@@ -1368,8 +1372,8 @@ pre .javascript .function {
   border: none;
 }
 .post-gallery .post-gallery-img img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 110%;
+  max-height: 110%;
   border: none;
 }
 .fancybox-close,
@@ -1529,7 +1533,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1318ff;
+  background: #2e3962;
 }
 .sidebar-nav {
   margin: 0 0 20px;
